@@ -3,7 +3,8 @@
 node('master'){
  def mvnHome
   stage('Prepare'){
-   git 'https://github.com/Martin1196155/hello-world.git' 
+   checkout scm
+   //git 'https://github.com/Martin1196155/hello-world.git' 
   }
   stage('Build'){
     mvnHome=tool'M2_HOME'  
