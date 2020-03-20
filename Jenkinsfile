@@ -1,13 +1,13 @@
 //My First Jenkinsfile
 
 node('master'){
- def maven
+ def mvnHome
   stage('Prepare'){
    checkout scm
    //git 'https://github.com/Martin1196155/hello-world.git' 
   }
   stage('Build'){
-    maven=tools'M2_HOME'  
+    mvnHome=tools'M2_HOME'  
     sh 'mvn clean install package'
   }
 }
