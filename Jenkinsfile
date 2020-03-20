@@ -8,7 +8,7 @@ node('master'){
   }
   stage('Build'){
     mvnHome=tool'M2_HOME'  
-    echo"$M2_HOME"
+    echo "${M2_HOME}"
     sh 'mvn clean install package'
   }
 }
