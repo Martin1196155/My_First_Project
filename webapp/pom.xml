@@ -17,7 +17,6 @@
 
   <properties>
     <sonar.projectName>Webapp</sonar.projectName>
-    <sonar.sources>webapp/src</sonar.sources>
   </properties>
          
   <build>
