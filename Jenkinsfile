@@ -23,7 +23,7 @@ node('master'){
   }  
  }
   finally{
-        junit '**/target/surefire/*.xml'
+        junit '**/target/surefire-reports/*.xml'
     }
 }
 
