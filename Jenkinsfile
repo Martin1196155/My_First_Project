@@ -24,6 +24,7 @@ node('master'){
  }
   finally{
         junit '**/target/surefire-reports/*.xml'
+        jacoco()
     }
   
   stage('Sonar'){
