@@ -13,6 +13,18 @@ node('master'){
     sh 'mvn clean install package'
     }
   }
+  try{
+  stage('Test'){
+  withMaven(
+    maven : "M2_HOME"
+    ){
+    sh 'mvn test    
+  }
+  }  
+ }
+  finally{
+        junit 'build/reports/**/*.xml'
+    }
 }
 
 
