@@ -15,6 +15,11 @@
   <name>Webapp</name>
   <description>Webapp.</description>
 
+  <properties>
+    <sonar.projectName>Webapp</sonar.projectName>
+    <sonar.sources>webapp/src</sonar.sources>
+  </properties>
+         
   <build>
     <finalName>${project.artifactId}</finalName>
 
