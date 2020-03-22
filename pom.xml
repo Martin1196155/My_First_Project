@@ -14,6 +14,10 @@
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+    <sonar.projectKey>Martin1196155_My_First_Project</sonar.projectKey>
+    <sonar.organization>martin1196155-github</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.login>700548a8c1a2f5466d91ce4c8d559c18aa52b9c7</sonar.login>
   </properties>
 
   <modules>
