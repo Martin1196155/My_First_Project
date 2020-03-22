@@ -17,7 +17,6 @@
   
   <properties>
     <sonar.projectName>Server</sonar.projectName>
-    <sonar.sources>server/src</sonar.sources>
   </properties>
          
   <build>
