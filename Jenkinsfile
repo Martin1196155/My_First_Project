@@ -25,6 +25,14 @@ node('master'){
   finally{
         junit '**/target/surefire-reports/*.xml'
     }
+  
+  stage('Sonar'){
+  withMaven(
+    maven : "M2_HOME"
+    ){
+    sh 'mvn verify sonar:sonar'    
+  }
+  }
 }
 
 
