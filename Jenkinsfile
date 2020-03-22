@@ -34,8 +34,14 @@ node('master'){
     sh 'mvn clean install sonar:sonar'   
   }
   }
+  
+  stage('Tomcat_Deployment'){
+  sshagent(['Connect-Tomcat']) {
+    sh 'scp -o StrictHostKeyChecking=no target/*.war ec2-user@18.224.212.120:/opt/tomcat/webapps/'  
+  }
 }
-
+}
+ 
 
 
 
