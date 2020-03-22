@@ -18,7 +18,7 @@ node('master'){
   withMaven(
     maven : "M2_HOME"
     ){
-    sh 'mvn test    
+    sh 'mvn test'    
   }
   }  
  }
