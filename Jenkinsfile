@@ -30,7 +30,8 @@ node('master'){
   withMaven(
     maven : "M2_HOME"
     ){
-    sh 'mvn verify sonar:sonar'    
+    sh 'mvn clean install'
+    sh 'mvn sonar:sonar'   
   }
   }
 }
