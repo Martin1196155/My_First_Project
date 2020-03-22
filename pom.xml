@@ -16,7 +16,7 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
     <sonar.organization>martin1196155-github</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    <sonar.login>911cc1601cb80779f9643ea6dd0e79e474b0194b</sonar.login>
+    <sonar.login>78f20f77a68a5256d075c2f178233dd03a4b666d</sonar.login>
   </properties>
 
   <modules>
