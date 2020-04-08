@@ -28,13 +28,6 @@ node('master'){
         jacoco()
     }
   
-  stage('Sonar'){
-  withMaven(
-    maven : "M2_HOME"
-    ){
-    sh 'mvn clean install sonar:sonar'   
-  }
-  }
   
   stage('Tomcat_Deployment'){
   sshagent(['Connect-Tomcat']) {
