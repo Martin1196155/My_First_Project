@@ -17,8 +17,7 @@
     <sonar.projectKey>Martin1196155_My_First_Project</sonar.projectKey>
     <sonar.organization>martin1196155-github</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    <sonar.login>78f20f77a68a5256d075c2f178233dd03a4b666d</sonar.login>
-    <sonar.coverage.jacoco.xmlReportPaths>**/**.exec</sonar.coverage.jacoco.xmlReportPaths>
+    <sonar.login>080fe134f05c6d3d16383a86f521cdd1de024aec</sonar.login>
   </properties>
 
   <modules>
